@@ -1,6 +1,3 @@
-#Crie um script Ruby usando o Atom ou seu editor de código preferido. 
-#Nesse script, realize, pelo menos, uma operação com cada um dos operadores aritméticos apresentados.
-
 puts('Digite um valor: ')
 a = gets.chomp.to_i()
 puts('Digite um outro valor: ')
