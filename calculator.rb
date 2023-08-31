@@ -16,17 +16,17 @@ def operation(option)
 
     case option
     when 1
-    resultado = num1 + num2 
-    puts "O resultado da soma é: #{resultado}"
+    result = num1 + num2 
+    puts "O resultado da soma é: #{result}"
     when 2
-        resultado = num1 - num2 
-        puts "O resultado da subtração é: #{resultado} "
-    when 3
-        resultado = num1 * num2 
-        puts "O resultado da multiplicação é: #{resultado} "
+        result = num1 - num2 
+        puts "O resultado da subtração é: #{result} "
+    when 3          
+        result = num1 * num2 
+        puts "O resultado da multiplicação é: #{result} "
     when 4
-        resultado = num1 / num2 
-        puts "O resultado da divisão é: #{resultado} "
+        result = num1 / num2 
+        puts "O resultado da divisão é: #{result} "
     when 5
         puts "ok, tchau!"
     else 
